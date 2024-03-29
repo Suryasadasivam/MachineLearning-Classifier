@@ -18,4 +18,18 @@ Below are the accuracy scores achieved by each classifier:
 - Gradient: 0.97136.
 - NearestCentroid: 0.85676.
 - Neuralnetwork: 0.96136.
+  
+# Conclusion
+
+From the evaluation results, it can be observed that the Gradient Boosting Classifier achieved the highest accuracy score of 0.97344, closely followed by the AdaBoost Classifier with a score of 0.97316. These classifiers seem to be well-suited for the given dataset. However, further analysis, including considering other metrics like precision, recall, and F1-score, would provide a more comprehensive understanding of the model performance.
+
+# Usage
+
+To reproduce the results:
+
+- Ensure you have the necessary dependencies installed (e.g., scikit-learn, TensorFlow, etc.).
+- Load the dataset into your environment.
+- Train each classifier using the provided dataset.
+- Evaluate the performance of each classifier using appropriate metrics.
+- Compare the results with the recorded accuracy scores in this README file.
 
